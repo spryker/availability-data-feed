@@ -1,5 +1,5 @@
 <?php
-namespace AvailabilityDataFeed;
+namespace SprykerTest\Zed\Auth;
 
 use Codeception\Actor;
 
@@ -18,10 +18,10 @@ use Codeception\Actor;
  *
  * @SuppressWarnings(PHPMD)
  */
-class UnitTester extends Actor
+class AvailabilityDataFeedPersistenceTester extends Actor
 {
 
-    use _generated\UnitTesterActions;
+    use _generated\AvailabilityDataFeedPersistenceTesterActions;
 
    /**
     * Define custom actions here

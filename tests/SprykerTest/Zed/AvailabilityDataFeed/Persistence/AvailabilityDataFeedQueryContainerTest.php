@@ -5,7 +5,7 @@
  * Use of this software requires acceptance of the Evaluation License Agreement. See LICENSE file.
  */
 
-namespace Unit\Spryker\Zed\AvailabilityDataFeed\Persistence;
+namespace SprykerTest\Zed\AvailabilityDataFeed\Persistence;
 
 use Codeception\Test\Unit;
 use Generated\Shared\Transfer\AvailabilityDataFeedTransfer;
@@ -15,12 +15,13 @@ use Spryker\Zed\Availability\Persistence\AvailabilityQueryContainer;
 use Spryker\Zed\AvailabilityDataFeed\Persistence\AvailabilityDataFeedQueryContainer;
 
 /**
- * @group Unit
- * @group Spryker
+ * Auto-generated group annotations
+ * @group SprykerTest
  * @group Zed
  * @group AvailabilityDataFeed
  * @group Persistence
  * @group AvailabilityDataFeedQueryContainerTest
+ * Add your own group annotations below this line
  */
 class AvailabilityDataFeedQueryContainerTest extends Unit
 {
